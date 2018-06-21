@@ -1,0 +1,10 @@
+<project>
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+	<target name="run">
+	    <exec executable="C:\Users\Melissa Medrano\AppData\Roaming\npm\protractor.cmd">
+	        <arg line=".\conf\conf.js"/>
+	    </exec>
+	</target>
+</project>
